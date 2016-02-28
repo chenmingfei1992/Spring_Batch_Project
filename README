@@ -1,0 +1,5 @@
+
+(Java,Spring) Spring batching with external monitoring                                             July 2015
+•	Querying database through JDBC, running jobs to read data from input csv file, process the data, and writing results 
+into MySQL database through Spring Batching, exporting batching process to JMX to allow external controlling, and testing 
+batching performance (cpu usage, memory usage, running time) through Junit and JVM.      
