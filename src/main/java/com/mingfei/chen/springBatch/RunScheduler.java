@@ -1,16 +1,13 @@
 package com.mingfei.chen.springBatch;
 
 
-import java.rmi.RMISecurityManager;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Date;
-import java.util.Properties;
 
 import javax.sql.DataSource;
 
-import org.junit.Assert;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobExecution;
 import org.springframework.batch.core.JobParameters;
@@ -19,7 +16,6 @@ import org.springframework.batch.core.explore.JobExplorer;
 import org.springframework.batch.core.launch.JobLauncher;
 import org.springframework.batch.core.launch.JobOperator;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.test.context.ContextConfiguration;
 
 

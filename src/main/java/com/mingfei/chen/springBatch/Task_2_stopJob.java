@@ -1,5 +1,7 @@
 package com.mingfei.chen.springBatch;
 
+import com.mingfei.chen.springBatch.CalcEngineJobController;
+
 import java.util.Date;
 
 public class Task_2_stopJob  implements Runnable

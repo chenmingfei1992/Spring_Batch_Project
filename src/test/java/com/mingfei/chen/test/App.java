@@ -2,8 +2,6 @@ package com.mingfei.chen.test;
 
 
 import com.mingfei.chen.springBatch.CalcEngineJobController;
-import com.mingfei.chen.springBatch.Task_1_startJob;
-import com.mingfei.chen.springBatch.Task_2_stopJob;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -16,6 +14,8 @@ import java.util.concurrent.TimeUnit;
 
 import javax.sql.DataSource;
 
+import com.mingfei.chen.springBatch.Task_1_startJob;
+import com.mingfei.chen.springBatch.Task_2_stopJob;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -32,8 +32,6 @@ import org.springframework.batch.core.repository.JobExecutionAlreadyRunningExcep
 import org.springframework.batch.core.repository.JobInstanceAlreadyCompleteException;
 import org.springframework.batch.core.repository.JobRestartException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
